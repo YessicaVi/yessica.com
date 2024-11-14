@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+body {
+    background-image: url(imagenes/fondo\ web.jpg); /* Aquí debes colocar la URL o ruta a tu imagen */
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras se hace scroll */
+}
+.titulo {
+    padding: 40px;
+    
+}
+p.center {
+    text-align: center; color: red;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Century Gothic", sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+body {
+    background-color: #f4f4f400;
+}
+
+h2 {
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(37, 133, 133);
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: 20px;
+    width: 150px;
+    display: inline-block;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 0.263);
+}
+
+p.center {
+    color: red;
+}
+
+/* Sección de Contacto */
+#contact-section {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-item h3 {
+    margin: 10px 0;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366; /* WhatsApp color */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-btn img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Artículo y Lateral */
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido .articulo {
+    width: 70%;
+    margin: auto;
+}
+
+.contenido .articulo div {
+    width: 90%;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contenido .articulo img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.contenido .lateral {
+    width: 30%;
+}
+
+.contenido .lateral p {
+    background-color: rgb(46, 160, 241);
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Ubicación en Google Maps */
+#location {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#tech-image {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#tech-image img {
+    border-radius: 8px;
+}
+
+/* Pie de página */
+.piedepagina {
+    background-color: darkcyan;
+    margin-top: 100px;
+}
+
+.piedepagina p {
+    padding: 100px;
+}
+
+/* Hover effects */
+.contact-btn:hover {
+    background-color: #128C7E; /* Slightly darker WhatsApp color */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #contact-section {
+        width: 90%;
+    }
+
+    .contenido {
+        flex-direction: column;
+    }
+
+    .contenido .articulo {
+        width: 100%;
+    }
+
+    .contenido .lateral {
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        padding: 15px;
+    }
+}
+.piedepagina {
+    background-color: darkcyan;
+    margin-top: 100px;
+}
+.piedepagina p {
+    padding: 100px;
+}

@@ -1,0 +1,89 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url(imagenes/fondo\ web.jpg); /* Aquí debes colocar la URL o ruta a tu imagen */
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras se hace scroll */
+}
+.titulo {
+    padding: 40px;
+    
+}
+p.center {
+    text-align: center; color: red;
+}
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+     list-style-type: none;
+     background-color: rgb(21, 127, 137);
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: 20px;
+    width: 150px;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 0.245);
+    
+}
+
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido  .articulo {
+    width: 70%;
+    margin: auto;
+}
+.contenido .articulo div {
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(47, 100, 141, 0.251);
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+.contenido .articulo img {
+    width:200px ;
+    border-radius: 15px;
+}
+
+.contenido .lateral {
+    width: 30%;
+}
+.contenido .lateral {
+    background-color: rgba(143, 64, 127, 0.96);
+    height: 400px;
+    padding: 40px;
+    border-radius: 15px;
+
+
+}
+.piedepagina {
+    background-color: darkcyan;
+    margin-top: 100px;
+}
+.piedepagina p {
+    padding: 100px;
+}
